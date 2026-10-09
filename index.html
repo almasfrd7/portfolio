@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Almas Farid — Creative technologist, mobile developer & game developer. Portfolio of Flutter apps, Unity games, and interactive media.">
+    <meta name="author" content="Almas Farid bin Mohamad Farid">
+    <meta property="og:title" content="Almas Farid | Creative Technologist">
+    <meta property="og:description" content="Where code meets comics — mobile apps, games, and digital stories.">
+    <meta property="og:type" content="website">
+    <title>Almas Farid | Creative Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="80">
+
+    <div class="bg-pattern" aria-hidden="true"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#">Almas <span>Farid</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#activities">Activities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item nav-actions">
+                        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" type="button">
+                            <i class="bi bi-moon-fill icon-moon"></i>
+                            <i class="bi bi-sun-fill icon-sun"></i>
+                        </button>
+                        <a class="nav-link btn-resume-nav" href="Almas_Farid_Resume.pdf" target="_blank" rel="noopener">
+                            <i class="bi bi-download me-1"></i>CV
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero" id="top">
+        <div class="hero-comic-burst" aria-hidden="true"></div>
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-7 reveal">
+                    <p class="hero-greeting">Prologue — a developer who draws stories in code</p>
+                    <h1>Hi, I'm <span class="hero-name-accent">Almas Farid</span></h1>
+                    <div class="typewriter-wrap">
+                        Seeking for a role as a <span class="typewriter-text" id="typewriter"></span><span class="typewriter-cursor" aria-hidden="true"></span>
+                    </div>
+                    <p class="hero-lead">Computer Science (Hons.) Multimedia Computing graduate from Universiti Teknologi MARA (UiTM) with
+                        practical experience in mobile application development, software projects, and interactive media. Skilled in
+                        Web & Mobile development, Unity game development, UI/UX design, and project collaboration. Passionate
+                        about creating user-friendly digital solutions and seeking opportunities to apply technical and problemsolving
+                        skills in a dynamic organization.</p>
+                    <p class="hero-location"><i class="bi bi-geo-alt me-1"></i>Selangor</p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary btn-lg">Explore Projects</a>
+                        <a href="Almas_Farid_Resume.pdf" class="btn btn-outline btn-lg" target="_blank" rel="noopener">
+                            <i class="bi bi-file-earmark-pdf me-1"></i>Download CV
+                        </a>
+                        <a href="https://www.linkedin.com/in/almas-farid-mohamad-farid-6a7a16276/" class="btn btn-ghost btn-lg" target="_blank" rel="noopener">
+                            <i class="bi bi-linkedin me-1"></i>LinkedIn
+                        </a>
+                    </div>
+                    <div class="stats-strip reveal reveal-delay-2">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="7" data-suffix="+">0</div>
+                            <div class="stat-label">Projects Built</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="3.55">0</div>
+                            <div class="stat-label">Degree CGPA</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="2">0</div>
+                            <div class="stat-label">Tech Internships</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">∞</div>
+                            <div class="stat-label">Ideas &amp; Sketches</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 reveal reveal-delay-1">
+                    <div class="hero-photo-wrap">
+                        <div class="hero-photo-frame">
+                            <img src="pic/Almas Farid photo.jpg" alt="Almas Farid — Creative Technologist and Developer">
+                            <span class="hero-photo-tag">Open to Work</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="chapter-label">Chapter I</span>
+                <h2 class="section-title">The Origin Story</h2>
+                <p class="section-subtitle">Where curiosity for design, games, and clean code first met.</p>
+            </div>
+            <div class="row justify-content-center align-items-center g-5">
+                <div class="col-md-4 text-center reveal">
+                    <img src="pic/Almas Farid photo.jpg" alt="Almas Farid portrait" class="about-photo">
+                </div>
+                <div class="col-md-7 reveal reveal-delay-1">
+                    <p class="pull-quote">"Every app is a story. Every game, a world waiting to be opened."</p>
+                    <p>I'm a <strong>Computer Science (Hons.) Multimedia Computing</strong> graduate from <strong>Universiti Teknologi MARA (UiTM)</strong> — a creative technologist who enjoys both the language of business systems and the visual grammar of games and comics.</p>
+                    <p>Skilled in web &amp; mobile development, Unity game development, UI/UX design, and cross-functional collaboration. From my experiences, I build digital application that ease the process ,meet the requirement and provide value to the users.</p>
+                    <p>When I'm not coding, you'll find me sketching some ideas, prototyping game mechanics, or studying how great design that can pulls people in.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="chapter-label">Chapter II</span>
+                <h2 class="section-title">Work Experiences</h2>
+                <p class="section-subtitle">Real-world involvements across industry, logistics, and tech.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="timeline reveal">
+                        <div class="timeline-item">
+                            <div class="timeline-date">April 2026 – July 2026</div>
+                            <h3 class="timeline-title">IT Intern</h3>
+                            <p class="timeline-org">Perodua Manufacturing Sdn Bhd · Sungai Choh, Rawang</p>
+                            <ul>
+                                <li>Developed a Flutter mobile app for the supplier Part Inspection System, integrated with PowerAutomate to SharePoint and OneDrive.</li>
+                                <li>Designed user-friendly interfaces and implemented core system features for multiple user workflows.</li>
+                                <li>Participated in team meetings and user trials to gather feedback and improve for the project.</li>
+                                <li>Identified & resolved bugs during development and testing.</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">August 2025 – September 2025</div>
+                            <h3 class="timeline-title">Delivery Driver</h3>
+                            <p class="timeline-org">J&amp;T Express · Rawang, Selangor</p>
+                            <ul>
+                                <li>Managed daily parcel sorting and timely customer deliveries.</li>
+                                <li>Handled COD transactions and payment reconciliation with accuracy.</li>
+                                <li>Assisted customers with inquiries, ensuring good communication and service.</li>
+                                <li>Maintained accuracy and efficiency in completing delivery routes.</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">September 2023 – March 2024</div>
+                            <h3 class="timeline-title">Intern</h3>
+                            <p class="timeline-org">Awfatech Global Sdn Bhd · Subang Jaya, Selangor</p>
+                            <ul>
+                                <li>Assisted in project management and documentation for various client projects.</li>
+                                <li>Supported testing and debugging of applications to ensure quality.</li>
+                                <li>Assist project manager on application design using Figma</li>
+                                <li>Assisted in SEO report for company website engagement improvement.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="chapter-label">Chapter III</span>
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">Formal education in computer science and multimedia computing.</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-5 reveal">
+                    <div class="card-base edu-card">
+                        <div class="timeline-date">March 2024 – September 2026</div>
+                        <h3 class="timeline-title mt-2">Bachelor of Computer Science (Hons.)<br>Multimedia Computing</h3>
+                        <p class="timeline-org">Universiti Teknologi MARA · Shah Alam</p>
+                        <span class="cgpa">CGPA: 3.55</span>
+                    </div>
+                </div>
+                <div class="col-md-5 reveal reveal-delay-1">
+                    <div class="card-base edu-card">
+                        <div class="timeline-date">October 2021 – March 2024</div>
+                        <h3 class="timeline-title mt-2">Diploma of Computer Science</h3>
+                        <p class="timeline-org">Universiti Teknologi MARA · Kuala Terengganu</p>
+                        <span class="cgpa">CGPA: 3.50</span>
+                        <p class="mt-2 mb-0 text-muted small">Graduated with First Class Diploma</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="chapter-label">Chapter IV</span>
+                <h2 class="section-title">The Skill Arsenal</h2>
+                <p class="section-subtitle">Tools of the trade — from Flutter to Figma, Git to game engines.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10 reveal">
+                    <div class="skill-group">
+                        <h5>Programming</h5>
+                        <span class="skill-tag">HTML</span><span class="skill-tag">CSS</span><span class="skill-tag">JavaScript</span><span class="skill-tag">PHP</span><span class="skill-tag">Java</span><span class="skill-tag">JSP</span><span class="skill-tag">C++</span><span class="skill-tag">VB.Net</span>
+                    </div>
+                    <div class="skill-group">
+                        <h5>Frameworks</h5>
+                        <span class="skill-tag">Bootstrap</span><span class="skill-tag">React</span><span class="skill-tag">Flutter</span>
+                    </div>
+                    <div class="skill-group">
+                        <h5>Database</h5>
+                        <span class="skill-tag">MySQL</span><span class="skill-tag">Firebase</span><span class="skill-tag">TinyDB</span><span class="skill-tag">Hive</span>
+                    </div>
+                    <div class="skill-group">
+                        <h5>Tools</h5>
+                        <span class="skill-tag">Android Studio</span><span class="skill-tag">Visual Studio</span><span class="skill-tag">VS Code</span><span class="skill-tag">Cursor</span><span class="skill-tag">NetBeans</span><span class="skill-tag">Figma</span><span class="skill-tag">Canva</span><span class="skill-tag">Photoshop</span><span class="skill-tag">Illustrator</span><span class="skill-tag">CapCut</span><span class="skill-tag">Git</span><span class="skill-tag">PowerAutomate</span><span class="skill-tag">Blender</span>
+                    </div>
+                    <div class="skill-group">
+                        <h5>Soft Skills</h5>
+                        <span class="skill-tag">Creativity</span><span class="skill-tag">Teamwork</span><span class="skill-tag">Critical Thinking</span><span class="skill-tag">Communication</span>
+                    </div>
+                    <div class="skill-group mb-0">
+                        <h5>Languages &amp; Other</h5>
+                        <span class="skill-tag">Bahasa Melayu (Native)</span><span class="skill-tag">English (Intermediate)</span><span class="skill-tag">Driving License &amp; Own Transport</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="chapter-label">Chapter V</span>
+                <h2 class="section-title">The Projects</h2>
+                <p class="section-subtitle">Selected works — apps, games, and systems with story behind the screen.</p>
+            </div>
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-4 reveal">
+                    <div class="project-card position-relative">
+                        <span class="featured-badge">Latest</span>
+                        <div class="project-card-header"><i class="bi bi-phone"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title">ePIS (Part Inspection Standard)</h5>
+                            <p class="card-text">Flutter app integrated with SharePoint &amp; OneDrive via PowerAutomate for PIS CRUD and data visualisation.</p>
+                            <div class="mb-3">
+                                <span class="tech-badge">Flutter</span><span class="tech-badge">PowerAutomate</span><span class="tech-badge">SharePoint</span>
+                            </div>
+                            <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#episModal">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+                    <div class="project-card position-relative">
+                        <span class="featured-badge">FYP</span>
+                        <div class="project-card-header"><i class="bi bi-mortarboard"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title">DearPhonics</h5>
+                            <p class="card-text">Gamified phonics learning app for ESL learners aged 4–6 with real-time feedback.</p>
+                            <div class="mb-3">
+                                <span class="tech-badge">Flutter</span><span class="tech-badge">Firebase</span><span class="tech-badge">Android</span>
+                            </div>
+                            <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#dearphonicsModal">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+                    <div class="project-card">
+                        <div class="project-card-header"><i class="bi bi-controller"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Echoes of the Yokai</h5>
+                            <p class="card-text">2D adventure game with scene-based progression inspired by Japanese folklore.</p>
+                            <div class="mb-3">
+                                <span class="tech-badge">Unity</span><span class="tech-badge">C#</span>
+                            </div>
+                            <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#yokaiModal">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 reveal">
+                    <div class="project-card">
+                        <div class="project-card-header"><i class="bi bi-tree"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Botania Farmlink Garden System</h5>
+                            <p class="card-text">Management system connecting farmers and suppliers via an admin dashboard.</p>
+                            <div class="mb-3">
+                                <span class="tech-badge">Java</span><span class="tech-badge">NetBeans</span><span class="tech-badge">MySQL</span>
+                            </div>
+                            <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#botaniaModal">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+                    <div class="project-card">
+                        <div class="project-card-header"><i class="bi bi-cup-hot"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Fotokopi</h5>
+                            <p class="card-text">Cafe ordering system with customer and admin pages for queue-based order management.</p>
+                            <div class="mb-3">
+                                <span class="tech-badge">Web</span><span class="tech-badge">E-Commerce</span>
+                            </div>
+                            <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#fotokopiModal">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+                    <div class="project-card">
+                        <div class="project-card-header"><i class="bi bi-shop"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title">LCK</h5>
+                            <p class="card-text">Chicken restaurant ordering website with customer and admin management.</p>
+                            <div class="mb-3">
+                                <span class="tech-badge">Web</span><span class="tech-badge">PHP</span>
+                            </div>
+                            <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#lckModal">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 reveal">
+                    <div class="project-card">
+                        <div class="project-card-header"><i class="bi bi-egg-fried"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Kazoku Sushi</h5>
+                            <p class="card-text">Staff-oriented VB.Net app with payment and booking systems for a sushi restaurant.</p>
+                            <div class="mb-3">
+                                <span class="tech-badge">VB.Net</span><span class="tech-badge">Desktop App</span>
+                            </div>
+                            <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#kazokuSushiModal">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modals -->
+    <div class="modal fade" id="episModal" tabindex="-1" aria-labelledby="episModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="episModalLabel">ePIS — Part Inspection Standard</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>ePIS</strong> is a Flutter mobile application developed during my IT internship at <strong>Perodua Manufacturing Sdn Bhd</strong>.</p>
+                    <ul>
+                        <li><strong>Integration:</strong> SharePoint and OneDrive via Microsoft PowerAutomate.</li>
+                        <li><strong>CRUD Operations:</strong> Full inspection record management.</li>
+                        <li><strong>Data Visualisation:</strong> Dashboard views for vendor monitoring.</li>
+                    </ul>
+                    <p class="mb-0">Enterprise mobile development in a corporate environment.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="dearphonicsModal" tabindex="-1" aria-labelledby="dearphonicsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="dearphonicsModalLabel">DearPhonics</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>DearPhonics</strong> — Final Year Project. Flutter &amp; Firebase Android app for ESL learners aged 4–6 with gamified phonics lessons and interactive storytelling.</p>
+                    <a href="https://drive.google.com/drive/u/2/folders/1Jc5iY1t-Knr0q--BolKBFiInHmHWkzEQ" class="btn btn-primary w-100" target="_blank" rel="noopener">
+                        <i class="bi bi-download me-1"></i>Download APK
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="yokaiModal" tabindex="-1" aria-labelledby="yokaiModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="yokaiModalLabel">Echoes of the Yokai</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Echoes of the Yokai</strong> — Unity 2D adventure game in C# with scene-based progression and Japanese folklore narrative.</p>
+                    <a href="https://drive.google.com/drive/u/2/folders/1Jc5iY1t-Knr0q--BolKBFiInHmHWkzEQ" class="btn btn-primary w-100" target="_blank" rel="noopener">
+                        <i class="bi bi-download me-1"></i>Download Game (exe)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="botaniaModal" tabindex="-1" aria-labelledby="botaniaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="botaniaModalLabel">Botania Farmlink Garden System</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Botania Farmlink</strong> — NetBeans management system coordinating farmers and suppliers with admin dashboard, database handling, and role-based access.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="fotokopiModal" tabindex="-1" aria-labelledby="fotokopiModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="fotokopiModalLabel">Fotokopi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Fotokopi</strong> — Cafe ordering system with customer ordering and admin queue management.</p>
+                    <div class="ratio ratio-16x9 mt-3">
+                        <iframe src="https://www.youtube.com/embed/T3EcUKpcHRY" title="Fotokopi Demo" loading="lazy" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="lckModal" tabindex="-1" aria-labelledby="lckModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="lckModalLabel">LCK — Luq's Chicken Restaurant</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>LCK</strong> — Diploma e-commerce project with customer ordering and admin payment confirmation. I served as project manager, developer, and tester.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="kazokuSushiModal" tabindex="-1" aria-labelledby="kazokuSushiModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="kazokuSushiModalLabel">Kazoku Sushi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Kazoku Sushi</strong> — VB.Net staff app with payment and booking systems.</p>
+                    <div class="ratio ratio-16x9 mt-3">
+                        <iframe src="https://www.youtube.com/embed/3oYwRMrdJ04" title="Kazoku Sushi Demo" loading="lazy" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Activities -->
+    <section id="activities" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="chapter-label">Chapter VI</span>
+                <h2 class="section-title">Activities Involvements</h2>
+                <p class="section-subtitle">Events, exhibitions, and community work beyond the codebase.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="activity-card reveal">
+                        <div class="activity-date">11 January 2025 · Taman Botani Perdana, KL</div>
+                        <h5>Seminar Memanfaatkan Keistimewaan Hutan dan Pokok</h5>
+                        <p class="mb-0">Developed and deployed a custom trivia website with UiTM KAB students to gamify seminar engagement.</p>
+                    </div>
+                    <div class="activity-card reveal reveal-delay-1">
+                        <div class="activity-date">12 December 2025 · UiTM Shah Alam</div>
+                        <h5>Program AI Ethics Awareness Kit Exhibition</h5>
+                        <p class="mb-0">Coordinated event logistics for the closing ceremony, including venue setup and spatial organization.</p>
+                    </div>
+                    <div class="activity-card reveal reveal-delay-2">
+                        <div class="activity-date">12 December 2025 · UiTM Shah Alam</div>
+                        <h5>Professorial Lecture: Prof. Ts. Dr. Anitawati Mohd Lokman</h5>
+                        <p class="mb-0">Usher &amp; photographer, digital backdrop design, multimedia presentations, and organizing committee support.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="chapter-label">Epilogue</span>
+                <h2 class="section-title">Let's Write the Next Chapter</h2>
+                <p class="section-subtitle">Open to roles in web & mobile dev, game studios, and creative tech teams.</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 reveal">
+                    <a href="mailto:almasfrd7@gmail.com" class="contact-link">
+                        <i class="bi bi-envelope-fill"></i>
+                        <div><strong>Email</strong><br><span>almasfrd7@gmail.com</span></div>
+                    </a>
+                    <a href="tel:+60164105211" class="contact-link">
+                        <i class="bi bi-phone-fill"></i>
+                        <div><strong>Phone</strong><br><span>+60 16-410-5211</span></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/almas-farid-mohamad-farid-6a7a16276/" class="contact-link" target="_blank" rel="noopener">
+                        <i class="bi bi-linkedin"></i>
+                        <div><strong>LinkedIn</strong><br><span>Connect with me</span></div>
+                    </a>
+                    <a href="Almas_Farid_Resume.pdf" class="contact-link" target="_blank" rel="noopener">
+                        <i class="bi bi-file-earmark-pdf-fill"></i>
+                        <div><strong>Resume</strong><br><span>Download PDF</span></div>
+                    </a>
+                </div>
+                <div class="col-lg-6 reveal reveal-delay-1">
+                    <form class="contact-form" action="https://formspree.io/f/mpwzlnjn" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input name="Name" type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input name="Email" type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea name="Message" class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">
+                            <i class="bi bi-send me-1"></i>Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p class="mb-1">&copy; 2026 Almas Farid bin Mohamad Farid</p>
+        <p class="mb-0 small text-muted">
+            Crafted with code, coffee &amp; curiosity ·
+            <a href="Almas_Farid_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
